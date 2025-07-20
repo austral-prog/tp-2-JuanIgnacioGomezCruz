@@ -1,3 +1,8 @@
 def earth():
-    x = "Bangladesh"
-    y = "Barbados"
+    x= "Bangladesh"
+    y= "Barbados"
+    str(x>y)
+    check = str(x<y)
+    check2 = str(x>y)
+    print(f"The result of {x} comes first in the dictionary than {y} is {check}.")
+    print(f"The result of {y} comes first in the dictionary than {x} is {check2}.")
